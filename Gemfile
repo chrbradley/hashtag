@@ -38,6 +38,7 @@ end
 group :development, :test do
   gem 'rspec-rails'
   gem 'capybara', '1.1.4'
+  gem 'guard-spork'
 end
 
 group :test do

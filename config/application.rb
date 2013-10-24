@@ -18,7 +18,7 @@ module Hashtag
     # -- all .rb files in that directory are automatically loaded.
 
     # Custome directories with classes and modules to be autoloadable
-    config.autoload_paths += %W(#{config.root}/lib) 
+    # config.autoload_paths += %W(#{config.root}/lib) 
     # config.autoload_paths += %W(#{spec.root}/lib)
     # config.autoload_paths += %W(#{Rails.root}/lib)
 
